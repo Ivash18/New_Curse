@@ -1,0 +1,154 @@
+body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;   
+    font-weight: bolder;
+    word-spacing: 2cm;
+    color: rgb(81, 126, 35);
+    background-color: rgb(114, 54, 64);
+    margin-bottom: 10px;
+}
+
+.hobbie{
+    background-color:aqua;
+}
+.xp{
+    background-color: purple;
+}
+
+.with_me{
+    background-color: burlywood;
+}
+
+.notework{
+    background-color: crimson;
+}
+
+.card{
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+.info-text{
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+
+}
+
+.container{
+    max-width: 750px;    
+    margin: auto;
+    padding-top: 10px;
+}
+
+.avatar{
+    width: 400px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+}
+
+.www:active{
+    color:blue
+}
+
+.www:hover{
+    color:orange
+}
+
+.www:visited{
+    color:olive
+}
+
+.btn{
+    padding: 15px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor:pointer;  
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+ol li:nth-child(1){
+    color:yellow;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+ol li:nth-child(2){
+    color:violet;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+ol li:nth-child(3){
+    color:turquoise;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+ol li:nth-child(4){
+    color:teal;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form1 label{
+    display: block;
+    font-size: 14px;
+    color:gray;
+}
+
+.form-row{
+    margin-bottom: 10px;    
+}
+
+.form-row, .form1{
+    display:inline-block;
+    margin-right: 20px;
+    width: 41%;
+}
+
+.form-row, .form1:last-child{
+    margin-right: 0;
+}
+
+.form1 input, 
+.form1 textarea{
+    width:100%;
+    box-sizing: border-box;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: 0;
+    font-family: inherit;
+}
+
+@media (max-width:650px){
+    .info{
+        display:block;
+        text-align: center;
+    }
+    .form-row{
+        display: block;
+    }
+    .form-row, .form1{
+        width:100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
